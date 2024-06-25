@@ -1,0 +1,59 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Coolvetica", sans-serif;
+  text-decoration: none;
+  background-color: rgba(198, 78, 78, 1);
+}
+
+.container {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.container .text h1 {
+  padding-top: 130px;
+  padding-bottom: 80px;
+  font-size: 64px;
+  letter-spacing: 3px;
+  display: block;
+}
+
+.container-2 {
+  width: 600px;
+  height: 90px;
+  margin-top: 30px;
+  margin-left: 20 0px;
+  display: block;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(96, 47, 47, 1);
+  border-inline: 2px;
+  border-style: solid;
+  border-inline-color: white white white white;
+  border-radius: 50px;
+}
+
+.container-2 .start {
+  margin-left: 235px;
+  display: block;
+  width: 0px;
+  background-color: rgba(96, 47, 47, 1);
+}
+
+.container-2 .start a {
+  text-align: center;
+  display: flex;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.container-2 .start a:hover {
+  opacity: 70%;
+}
